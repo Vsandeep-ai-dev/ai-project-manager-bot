@@ -1,6 +1,8 @@
+def detect_blockers():
+    return "No blockers detected."
 from task_manager import log_task_update
 from summary_generator import generate_summary
-from blockers_analyzer import detect_blockers
+from blockers_module import detect_blockers
 
 def menu():
     print("🤖 AI Project Manager Bot")
